@@ -16,7 +16,5 @@
 			]
 		}
 	},
-	"mounts": [
-		"target=${containerWorkspaceFolder}/.venv,type=volume"
-	]
+	"postCreateCommand": "sh .devcontainer/postCreateCommand.sh"
 }

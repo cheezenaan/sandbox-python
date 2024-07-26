@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rye sync
